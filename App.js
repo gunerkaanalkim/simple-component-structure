@@ -23,7 +23,13 @@ new Component({
             text: "Third Item"
         }
     ],
-    actions: {}
+    actions: {
+        "li": {
+            click: function () {
+                alert("Click!");
+            }
+        }
+    }
 });
 
 
